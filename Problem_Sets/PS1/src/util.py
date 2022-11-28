@@ -11,7 +11,8 @@ def add_intercept(x):
     Returns:
         New matrix same as x with 1's in the 0th column.
     """
-    new_x = np.zeros((x.shape[0], x.shape[1] + 1), dtype=x.dtype)
+    new_x = np.zeros((x.shape[0], x.shape[1] + 1), dtype=x.dtype) # The desired data-type for the array,
+    #Return a new array of given shape and type, filled with zeros
     new_x[:, 0] = 1
     new_x[:, 1:] = x
 
@@ -23,8 +24,10 @@ def load_dataset(csv_path, label_col='y', add_intercept=False):
 
     Args:
          csv_path: Path to CSV file containing dataset.
-         label_col: Name of column to use as labels (should be 'y' or 'l').
-         add_intercept: Add an intercept entry to x-values.
+         label_col: Name of column to use as labels (should be 'y' or 'l'). 
+         Default 'y'
+         add_intercept: Add an intercept entry to x-values. 
+         Default False
 
     Returns:
         xs: Numpy array of x-values (inputs).
@@ -44,13 +47,25 @@ def load_dataset(csv_path, label_col='y', add_intercept=False):
     # Load headers
     with open(csv_path, 'r') as csv_fh:
         headers = csv_fh.readline().strip().split(',')
+        # readline() reads a line from a file. 
+        # The result includes a trailing '\n' . . strip() 
+        # removes all leading & trailing whitespace 
+        # (e.g. the above-mentioned '\n' ) from a string.
 
     # Load features and labels
     x_cols = [i for i in range(len(headers)) if headers[i].startswith('x')]
+    #The range() function returns a sequence of numbers,
+    # starting from 0 by default, and increments by 1 (by default),
+    # and stops before a specified number.
+    # 0-2
     l_cols = [i for i in range(len(headers)) if headers[i] == label_col]
     inputs = np.loadtxt(csv_path, delimiter=',', skiprows=1, usecols=x_cols)
     labels = np.loadtxt(csv_path, delimiter=',', skiprows=1, usecols=l_cols)
-
+    # Skip the first skiprows lines, including comments; default: 0.
+    # usecolsint or sequence, optional 
+    # Which columns to read, with 0 being the first. 
+    # For example, usecols = (0,1) will extract the 1nd, 2th columns. 
+    # The default, None, results in all columns being read.
     if inputs.ndim == 1:
         inputs = np.expand_dims(inputs, -1)
 

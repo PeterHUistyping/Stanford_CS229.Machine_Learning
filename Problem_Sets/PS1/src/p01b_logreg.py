@@ -45,9 +45,10 @@ class LogisticRegression(LinearModel):
         """
         # *** START CODE HERE ***
         m, n = x.shape  # dimensions
-        self.theta = np.zeros(n)
+        self.theta = np.zeros(n) #Initial guess for theta
 
         # Hessian Matrix
+        # Quoted from Lecture Note1 P21
         while True:
             theta_ = np.copy(self.theta)
             g_x = 1/(1+np.exp(-x.dot(theta_)))
