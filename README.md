@@ -1,11 +1,12 @@
 # Machine Learning [Stanford/CS229]
 
 ## Remark
+This repo contains all the Problem Sets of CS229, which includes Mathematical and Programming projects.
 ```
 Problem_Sets
+/PSi/src is implemented by me
 /solutions are written by CS229 course professor
 /PSi/Sol is written by others, which is not completely right.
-/PSi/src is implemented by me
 ```
 ## Problem Set1
 Libraries used: matplotlib.pyplot, numpy\
