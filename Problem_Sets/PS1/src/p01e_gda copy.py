@@ -18,7 +18,7 @@ def main(train_path, eval_path, pred_path):
     model=GDA()
     model.fit(x_train,y_train)
     util.plot(x_train, y_train, model.theta,'output/p01e_{}.png'.format(pred_path[-5]))
-    x_eval,_=util.load_dataset(eval_path,add_intercept=True)
+    x_eval,_=util.load_dataset(eval_path,add_intercept=False)
     y_predict=model.predict(x_eval)
     np.savetxt(pred_path,y_predict>0.5,fmt="%d")
 
