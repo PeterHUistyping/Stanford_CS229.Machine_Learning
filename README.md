@@ -19,6 +19,6 @@ Problem 1(b): Logistic regression with Newton's Method.\
 Problem 1(e): Gaussian Discriminant Analysis (GDA) Model
     Lecture Note2 Generative Algorithms P2
  
-![Linear_vs_GDA](./Problem_Sets/PS1/src/output/DB12.png)
+![Linear_vs_GDA](./Problem_Sets/PS1/src/output/DS12.png)
 For Dataset1, GDA performs worse than Logisitic regression.\
 Probably, p(x|y) is not Gaussian Distribution
