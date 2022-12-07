@@ -20,4 +20,5 @@ Problem 1(e): Gaussian Discriminant Analysis (GDA) Model
     Lecture Note2 Generative Algorithms P2
  
 ![Linear_vs_GDA](./Problem_Sets/PS1/src/output/DB12.png)
- 
+For Dataset1, GDA performs worse than Logisitic regression.\
+Probably, p(x|y) is not Gaussian Distribution
