@@ -19,7 +19,6 @@ Problem 1(b): Logistic regression with Newton's Method.\
 
 Problem 1(e): Gaussian Discriminant Analysis (GDA) Model
     Lecture Note2 Generative Algorithms P2
-![Linear_vs_GDA](https://github.com/PeterHUistyping/Machine_Learning_Stanford.CS229/tree/master/Problem_Sets/PS1/src/output/DB1.png)
-![Linear_vs_GDA2](https://github.com/PeterHUistyping/Machine_Learning_Stanford.CS229/tree/master/Problem_Sets/PS1/src/output/DB2.png)
-![Linear_vs_GDA2](https://github.com/PeterHUistyping/Machine_Learning_Stanford.CS229/tree/master/Problem_Sets/PS1/src/output/DB12.png)
-<img src="./Problem_Sets/PS1/src/output/DB12.png" width="100" height="100">
+ 
+![Linear_vs_GDA](./Problem_Sets/PS1/src/output/DB12.png)
+ 
