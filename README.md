@@ -21,4 +21,5 @@ Libraries used: matplotlib.pyplot, numpy\
  
 ![Linear_vs_GDA](./Problem_Sets/PS1/src/output/DS12.png)
 For Dataset1, GDA performs worse than Logisitic regression.\
-Probably, p(x|y) is not Gaussian Distribution
+Probably, p(x|y) is not Gaussian Distribution.\
+Improvement: Using Box-Cox transformation for Dataset1.
