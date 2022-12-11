@@ -26,7 +26,9 @@ Improvement: Using Box-Cox transformation for Dataset1.
 
 ### Problem 2(cd): Incomplete, Positive-Only Labels
     Problem Set Specification
-
-### Problem 3: Poisson Regression
-    Problem Set Specification
  
+### Problem 3(d): Poisson regression with gradient ascent.
+    Lecture Note1 Supervised Learning P22 One of the exponential family.
+                                            Sigmoid Function
+    Lecture Note1 Supervised Learning P26 Canonical Response Function
+    Lecture Note1 Supervised Learning P19 Stochastic Gradient Ascent Update
