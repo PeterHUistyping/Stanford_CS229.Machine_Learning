@@ -32,3 +32,12 @@ Improvement: Using Box-Cox transformation for Dataset1.
                                             Sigmoid Function
     Lecture Note1 Supervised Learning P26 Canonical Response Function
     Lecture Note1 Supervised Learning P19 Stochastic Gradient Ascent Update
+
+### Problem 4: Convexity of Generalized Linear Models
+    Lecture Note1 Supervised Learning P13 log likelihood
+    • Any GLM model is convex in its model parameters.
+    • The exponential family of probability distributions are mathematically nice. Whereas cal- culating mean and variance of distributions in general involves integrals (hard), surprisingly we can calculate them using derivatives (easy) for exponential family.
+
+### Problem 5: Locally weighted linear regression
+    Lecture Note1 Supervised Learning P14  
+    Lecture Note1 Supervised Learning P11 the normal equation
