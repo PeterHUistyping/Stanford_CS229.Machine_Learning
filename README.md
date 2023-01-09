@@ -1,5 +1,6 @@
 # Machine Learning [Stanford/CS229]
-
+http://cs229.stanford.edu/syllabus-autumn2018.html
+ 
 ## Remark
 This repo contains all the Problem Sets of CS229, which includes Mathematical and Programming projects.
 ```
