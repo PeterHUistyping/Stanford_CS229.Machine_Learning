@@ -42,3 +42,9 @@ Improvement: Using Box-Cox transformation for Dataset1.
 ### Problem 5: Locally weighted linear regression
     Lecture Note1 Supervised Learning P14  
     Lecture Note1 Supervised Learning P11 the normal equation
+    
+## Problem Set2
+### Problem 1: Logistic Regression: Training stability
+    Exercise for training and debugging ML algorithms.
+    Hinge loss function
+    Linearly separable data set.
