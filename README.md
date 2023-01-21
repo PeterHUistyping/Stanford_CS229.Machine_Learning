@@ -48,3 +48,5 @@ Improvement: Using Box-Cox transformation for Dataset1.
     Exercise for training and debugging ML algorithms.
     Hinge loss function
     Linearly separable data set.
+### Problem 2: Model Calibration
+    Perfect accuracy, Well-Calibrated
