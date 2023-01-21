@@ -2,8 +2,8 @@
 
 import util
 import numpy as np
-
-
+from util import plot_points
+import matplotlib.pyplot as plt
 def calc_grad(X, Y, theta):
     """Compute the gradient of the loss with respect to theta."""
     m, n = X.shape
@@ -42,8 +42,17 @@ def main():
 
     print('\n==== Training model on data set B ====')
     Xb, Yb = util.load_csv('../data/ds1_b.csv', add_intercept=True)
-    logistic_regression(Xb, Yb)
-
+    # logistic_regression(Xb, Yb)
+    plt.figure()
+    Xa_2, Ya_2 = util.load_csv('../data/ds1_a.csv', add_intercept=False)
+    # plot_points(Xa,Ya)
+    plot_points(Xa_2,(Ya_2==1).astype(int))
+    plt.savefig("out/DS_A.png")
+    plt.figure()
+    Xb_2, Yb_2 = util.load_csv('../data/ds1_b.csv', add_intercept=False)
+    # plot_points(Xb,Yb)
+    plot_points(Xb_2,(Yb_2==1).astype(int))
+    plt.savefig("out/DS_B.png")
 
 if __name__ == '__main__':
     main()
