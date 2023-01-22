@@ -50,3 +50,10 @@ Improvement: Using Box-Cox transformation for Dataset1.
     Linearly separable data set.
 ### Problem 2: Model Calibration
     Perfect accuracy, Well-Calibrated
+### Problem 3: Bayesian Interpretation of Regularization
+    maximum a posteriori estimation (MAP)
+    maximum likelihood estimation (MLE) 
+    Lasso regression (i.e L1 regularization) is known to result in sparse parameters, where most of the parameter values are zero, with only some of them non-zero.
+### Problem 4: Constructing kernels
+    Valid Kernels: K -> symmetric and positive semidefinite
+### Problem 5: Kernelizing the Perceptron
