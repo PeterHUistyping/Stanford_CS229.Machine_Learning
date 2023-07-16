@@ -6,7 +6,9 @@ This repo contains all the Problem Sets of CS229, which includes Mathematical an
 
 [PS-Summary](./Problem_Sets/Doc/PS-Summary.md)
 
-## Machine Learning 
+## Machine Learning Knowledge Sharing
+See more about Machine Learning and Data Science in general. [ML_Guidance_Repo](https://github.com/PeterHUistyping/Machine_Learning_Guidance) 
+
 ### Classification of Algorithm
 - Continuous
   
