@@ -1,6 +1,15 @@
 # Machine Learning [Stanford/CS229]
 http://cs229.stanford.edu/syllabus-autumn2018.html
  
+https://github.com/maxim5/cs229-2018-autumn
+
+https://github.com/Kivy-CN/Stanford-CS-229-CN  Note 讲义​
+
+The videos of all lectures are available [on YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU).
+
+Useful links:
+- [CS229 Summer 2019 edition](https://github.com/maxim5/cs229-2019-summer)
+
 ## Problem Sets
 This repo contains all the Problem Sets of CS229, which includes Mathematical and Programming projects.
 
@@ -9,25 +18,6 @@ This repo contains all the Problem Sets of CS229, which includes Mathematical an
 ## Machine Learning Knowledge Sharing
 See more about Machine Learning and Data Science in general. [ML_Guidance_Repo](https://github.com/PeterHUistyping/Machine_Learning_Guidance) 
 
-### Classification of Algorithm
-- Continuous
-  
-|       Unsupervised                     |   * Supervised *         |  
-|           -                            |         -                |
-|  Clustering & Dimensionality Reduction |    Regression            |
-|  ○ SVD                                 |    ○ Linear/Polynomial   |  
-|  ○ PCA                                 |    Decision Trees        |  
-|  ○ K-means                             |    Random Forest         |  
-
-
-- Discrete (Category)
-
-|       Unsupervised                     |      Classification      |  
-|           -                            |         -                |
-|  Association Analysis                  |    ○ KNN/ Trees          |
-|  ○ Apriori                             |    ○ Logistic Regression |  
-|  ○ FP-Growth                           |    ○ Naive Bayes         |  
-|  Hidden Markov Model                   |    ○ SVM                 |  
 
 ### Library 
 Numpy, matplotlib, pandas, TensorFlow
